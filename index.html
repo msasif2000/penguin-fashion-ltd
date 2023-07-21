@@ -19,25 +19,29 @@
 </head>
 
 <body>
-    <header class="bg-amber-50 p-12">
-        <nav class="flex flex-col md:flex-row justify-between items-center px-2">
-            <img src="./icons/logo.png" alt="" class="w-1/2">
-            <div>
-                <ul class="flex flex-col md:flex-row gap-2">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+    <header class="bg-amber-50">
+        <!-- Navbar -->
+        <nav class="flex flex-col md:flex-row justify-between items-center p-12 max-w-7xl my-0 mx-auto">
+            <div class="w-1/2">
+                <img src="./icons/logo.png" alt="" >
+            </div>
+            <div class="lg:w-1/2 flex lg:justify-end "></div>
+                <ul class="flex flex-col md:flex-row gap-3 text-lg py-10">
+                    <li><a href="#" class="bg-[#A4BC46] p-1.5 rounded-xl">Home</a></li>
+                    <li><a href="#" class="bg-[#A4BC46] p-1.5 rounded-xl">Product</a></li>
+                    <li><a href="#" class="bg-[#A4BC46] p-1.5 rounded-xl">About Us</a></li>
+                    <li><a href="#" class="bg-[#A4BC46] p-1.5 rounded-xl">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="flex flex-col md:flex-row justify-between items-center">
+        <!-- banner sec -->
+        <div class="flex flex-col md:flex-row justify-between items-center p-12 max-w-7xl my-0 mx-auto">
             <div>
                 <p class="text-7xl uppercase font-sty"><span class="text-[#FABE4C]">Be the Penguins</span>
                     <br> of Winter</p>
                 <p class="p-2 text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry.</p>
-                <button class="py-1 px-5 bg-[#A4BC46] rounded-xl text-white flex flex-row items-center" ><img src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+                <button class="py-3 px-4 bg-[#A4BC46] rounded-xl text-white flex flex-row items-center" ><img src="./icons/shopping-cart 1.png" alt="" class="w-7"> BUY NOW</button>
             </div>
             <div>
                 <img src="./images/model.png" alt="" >
@@ -45,7 +49,43 @@
         </div>
     </header>
     <main>
-        
+        <!-- Woman Jacket section -->
+        <section class="p-12 max-w-7xl my-0 mx-auto">
+            <h3 class="text-5xl uppercase font-sty py-10">Woman Jacket</h3>
+            <div class="grid lg:grid-cols-3 gap-5">
+                <div class="">
+                    <img src="./images/jacket-1.png" alt="" class="bg-slate-300 rounded-2xl p-10" >
+                    <p class="text-3xl font-bold py-2 px-1">Yellow Coat Jacket </p>
+                    <p class="py-3 px-1">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between px-1">
+                        <p class="text-4xl font-bold text-[#FABE4C]">$234</p>
+                        <button class="py-3 px-4 bg-[#A4BC46] rounded-xl text-white flex flex-row items-center" ><img src="./icons/shopping-cart 1.png" alt="" class="w-7"> BUY NOW</button>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="./images/jacket-2.png" alt="" class="bg-slate-300 rounded-2xl p-10" >
+                    <p class="text-3xl font-bold py-2 px-1">Ladies Jacket </p>
+                    <p class="py-3 px-1">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between px-1">
+                        <p class="text-4xl font-bold text-[#FABE4C]">$234</p>
+                        <button class="py-3 px-4 bg-[#A4BC46] rounded-xl text-white flex flex-row items-center" ><img src="./icons/shopping-cart 1.png" alt="" class="w-7"> BUY NOW</button>
+                    </div>
+                </div>
+                <div class="w-">
+                    <img src="./images/jacket-3.png" alt="" class="bg-slate-300 rounded-2xl p-10" >
+                    <p class="text-3xl font-bold py-2 px-1">Woman Leather Jacket </p>
+                    <p class="py-3 px-1">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between px-1">
+                        <p class="text-4xl font-bold text-[#FABE4C]">$234</p>
+                        <button class="py-3 px-4 bg-[#A4BC46] rounded-xl text-white flex flex-row items-center" ><img src="./icons/shopping-cart 1.png" alt="" class="w-7"> BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer>
 
