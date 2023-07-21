@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<style>
+    .font-sty{
+        font-family: 'Bebas Neue', sans-serif;
+
+    }
+</style>
 </head>
+
 <body>
-    <header>
-        <div>
+    <header class="bg-amber-50 p-12">
+        <nav class="flex flex-col md:flex-row justify-between items-center px-2">
+            <img src="./icons/logo.png" alt="" class="w-1/2">
             <div>
-                <p>Be the Penguins
-                  <br>  of Winter</p>
+                <ul class="flex flex-col md:flex-row gap-2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div>
+                <p class="text-7xl uppercase font-sty"><span class="text-[#FABE4C]">Be the Penguins</span>
+                    <br> of Winter</p>
+                <p class="p-2 text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button class="py-1 px-5 bg-[#A4BC46] rounded-xl text-white flex flex-row items-center" ><img src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
             </div>
             <div>
-
+                <img src="./images/model.png" alt="" >
             </div>
         </div>
     </header>
     <main>
-
+        
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
